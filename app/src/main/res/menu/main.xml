@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/abc_search_hint"
+        app:showAsAction="always" />
+
+
+    <item
+        android:orderInCategory="100"
+        android:title="处方药"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:orderInCategory="100"
+        android:title="非处方药"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:orderInCategory="100"
+        android:title="感冒发烧"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:orderInCategory="100"
+        android:title="腹疼胃疼"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:orderInCategory="100"
+        android:title="家用补药"
+        app:showAsAction="collapseActionView" />
+</menu>
